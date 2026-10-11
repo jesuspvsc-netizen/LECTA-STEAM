@@ -1,0 +1,64 @@
+LECTA STEAM — 0.1.0-piloto.1
+Prueba local para docentes · Windows x64
+
+ABRIR
+1. Extrae todo el ZIP en una carpeta de tu ordenador. No lo ejecutes dentro del ZIP.
+2. Haz doble clic en Iniciar-LECTA-STEAM.cmd.
+3. Se abrirá una ventana de consola y después tu navegador.
+   Si no se abre, copia en el navegador la dirección http://127.0.0.1:... de la consola.
+No necesitas Visual Studio ni instalar .NET: el paquete incluye sus componentes.
+Conserva toda la carpeta app; no saques el ejecutable de ella.
+
+CERRAR
+Guarda la actividad. Vuelve a la ventana de consola y pulsa Ctrl+C.
+Si Windows pregunta si deseas terminar el trabajo por lotes, confirma con S.
+Cerrar una pestaña del navegador no detiene el programa.
+Si vuelves a abrirlo mientras ya se está ejecutando, utiliza la primera ventana.
+
+PRIMERA ACTIVIDAD
+- Pulsa Nueva actividad, escribe un título y el contexto educativo y pega el texto.
+- Configura los procesos de comprensión y guarda para abrir el editor.
+- Añade preguntas manualmente o utiliza Generación asistida de preguntas.
+- Para la generación asistida, copia las instrucciones a tu chat de IA, pega aquí
+  su respuesta y revisa las propuestas antes de incorporarlas. Ese chat requiere
+  acceso a su servicio y puede tener límites propios. LECTA STEAM no pide clave API.
+- Guarda cambios para permanecer en el editor, o Guardar y volver para ir al listado.
+
+REVISAR E IMPRIMIR
+Las preguntas aparecen compactas. Pulsa Editar para desplegar una, o Expandir todas.
+Si eliminas una por error, puedes deshacer la última eliminación antes de guardar.
+En Presentación y apoyos de lectura ajusta letra, interlineado y separación.
+Previsualiza la vista del alumno o el solucionario y pulsa Imprimir / PDF.
+La aplicación avisa de algunos campos incompletos. La revisión docente del contenido
+sigue siendo necesaria. Comprueba que entregas el PDF del alumno, no el solucionario.
+
+COMPARTIR ACTIVIDADES
+En Mis actividades utiliza la exportación .lecta. Otro docente puede importar el
+archivo en su instalación y editar su propia copia. El archivo .lecta incluye
+respuestas, criterios y notas del docente: es para intercambiar entre docentes.
+Para el alumnado utiliza la vista del alumno o su PDF.
+
+DÓNDE SE GUARDAN LOS DATOS
+Cada usuario de Windows guarda sus actividades en:
+%LOCALAPPDATA%\LectaSteam\Data
+Puedes pegar esa ruta en la barra del Explorador de archivos.
+Los datos permanecen al sustituir la carpeta del programa por una versión nueva.
+No son una cuenta en la nube ni se sincronizan entre ordenadores. Si llevas solo
+la carpeta del programa a otro equipo, tus actividades no viajan con ella.
+
+COPIA DE SEGURIDAD
+Cierra LECTA STEAM con Ctrl+C y copia la carpeta Data completa a una ubicación segura.
+Los archivos .lecta permiten además conservar o trasladar actividades individuales.
+Si una futura actualización necesita cambiar la estructura de la base de datos,
+esta versión hace antes una copia en Data\CopiasAntesDeActualizar. Esa copia no
+sustituye tus copias de seguridad habituales.
+
+ACTUALIZAR
+Guarda y cierra la aplicación. Extrae el nuevo ZIP en una carpeta nueva y usa su
+lanzador. La nueva versión local utiliza la misma carpeta de datos del usuario.
+No borres la carpeta de datos. Antes de probar una actualización, haz una copia.
+No ejecutes dos versiones locales simultáneamente.
+
+INCIDENCIAS DE LA PRUEBA
+Anota qué estabas haciendo, el mensaje y los pasos para reproducirlo. Si falla el
+arranque, conserva el texto de la consola para que el coordinador pueda revisarlo.
