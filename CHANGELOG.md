@@ -18,4 +18,4 @@ Primera versión piloto preparada como paquete local para Windows x64.
 
 ### Verificación comunicada
 
-El responsable del proyecto confirma compilación correcta y funcionamiento del paquete extraído en su equipo, incluido el guardado y la recuperación de actividades. Queda pendiente la prueba en un segundo ordenador Windows x64. Esta versión se distribuye como piloto, no como versión estable.
+El responsable del proyecto confirma compilación correcta y funcionamiento del paquete extraído en su equipo, incluido el guardado y la recuperación de actividades. El 11 de octubre de 2026 confirma también el funcionamiento en un segundo ordenador Windows x64. Esta versión se distribuye como piloto, no como versión estable.
