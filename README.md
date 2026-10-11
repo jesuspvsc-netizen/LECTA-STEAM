@@ -10,7 +10,9 @@ Versión piloto: **0.1.0-piloto.1**, para **Windows x64**. El paquete se ha prob
 
 ## Descargar y empezar
 
-Las versiones publicadas estarán disponibles en la sección **Releases** de este repositorio. Descarga el ZIP cuyo nombre comienza por `LECTA-STEAM-0.1.0-piloto.1-win-x64`.
+**[Descargar LECTA STEAM 0.1.0-piloto.1 para Windows x64](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases/download/v0.1.0-piloto.1/LECTA-STEAM-0.1.0-piloto.1-win-x64-20261011-115409-452e9fff.zip)** · ZIP de aproximadamente 56 MB.
+
+Consulta las [notas de esta versión](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases/tag/v0.1.0-piloto.1) o el [historial de versiones publicadas](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases).
 
 1. Extrae el ZIP completo en una carpeta.
 2. Abre `Iniciar-LECTA-STEAM.cmd`.
