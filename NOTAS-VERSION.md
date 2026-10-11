@@ -24,6 +24,6 @@ Los datos se guardan en `%LOCALAPPDATA%\LectaSteam\Data`. Antes de actualizar, c
 
 ## Alcance de la prueba
 
-Funcionamiento confirmado en el equipo de desarrollo. Pendiente de comprobación en un segundo equipo Windows x64. Revisa las actividades antes de entregarlas al alumnado. Los archivos `.lecta` contienen también el solucionario y las notas del docente.
+El responsable del proyecto confirma el funcionamiento en el equipo de desarrollo y en un segundo equipo Windows x64. Revisa las actividades antes de entregarlas al alumnado. Los archivos `.lecta` contienen también el solucionario y las notas del docente.
 
 No se necesita clave API para usar LECTA STEAM. El chat externo utilizado para la generación asistida tiene sus propias condiciones de acceso.
