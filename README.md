@@ -6,7 +6,7 @@ Este repositorio público reúne documentación, novedades y descargas. El códi
 
 ## Estado del proyecto
 
-Versión piloto: **0.1.0-piloto.1**, para **Windows x64**. El paquete se ha probado en el equipo de desarrollo; queda pendiente verificarlo en un segundo ordenador. Es una versión en evaluación y puede presentar incidencias.
+Versión piloto: **0.1.0-piloto.1**, para **Windows x64**. El responsable del proyecto confirma que el paquete funciona tanto en el equipo de desarrollo como en un segundo ordenador Windows x64. Es una versión en evaluación y puede presentar incidencias.
 
 ## Descargar y empezar
 
