@@ -1,29 +1,47 @@
-# LECTA STEAM 0.1.0-piloto.1
+# LECTA STEAM 0.1.0-piloto.2
 
-Versión piloto local para Windows x64. Permite preparar actividades de comprensión lectora, editar preguntas, revisar propuestas de un chat externo, compartir actividades y obtener materiales en PDF.
+Paquete piloto para Windows x64, publicado el 12 de octubre de 2026.
+
+[Descargar el ZIP](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases/download/v0.1.0-piloto.2/LECTA-STEAM-0.1.0-piloto.2-win-x64-20261011-201016-8bedb982.zip) · [Ver la publicación](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases/tag/v0.1.0-piloto.2).
+
+## Novedades
+
+- Pantalla de inicio en español con accesos y ayuda para docentes.
+- Creación de variantes independientes con nombre y apoyos de lectura.
+- Adaptación asistida del texto: vocabulario accesible, frases breves y explicación de términos.
+- Comparación del texto original y la propuesta antes de incorporarla.
+- Revisión asistida de preguntas individuales con sus respuestas, criterios y evidencias.
+- Sustitución de preguntas conservando su posición, proceso, formato, dificultad y puntuación.
+- Avisos sobre propuestas pendientes y evidencias que ya no aparecen literalmente en el texto.
+- Guía docente actualizada.
+
+La revisión asistida admite respuesta breve, respuesta abierta y elección múltiple.
+La validación automática no sustituye la revisión pedagógica del docente.
+
+## Validación comunicada
+
+El responsable del proyecto confirma que pasan todas las pruebas y que el nuevo paquete
+extraído funciona correctamente. Esta versión continúa en fase piloto.
 
 ## Archivo del programa
 
-`LECTA-STEAM-0.1.0-piloto.1-win-x64-20261011-115409-452e9fff.zip`
+`LECTA-STEAM-0.1.0-piloto.2-win-x64-20261011-201016-8bedb982.zip`
 
-SHA-256 comunicado por el proceso de empaquetado:
+SHA-256: coincide con el valor del empaquetado y con el digest del archivo publicado en GitHub.
 
 ```text
-1FEBC4AA4A06480463BE38714D8F6224F19DE3D303E20B019E443D16452617BD
+3AE2FDD007B8823C146861315412739B26F205F9B2AD2D4FCE8048D276E441DA
 ```
 
-El hash corresponde exclusivamente a ese ZIP. Si se vuelve a generar el paquete, debe sustituirse por el nuevo valor.
+Este valor corresponde a ese ZIP concreto; si se genera otro, deberá verificarse su nuevo hash.
 
-## Inicio
+## Inicio y actualización
 
-Extrae todo el ZIP y abre `Iniciar-LECTA-STEAM.cmd`. El paquete incluye .NET. Conserva la consola abierta mientras trabajas; guarda y pulsa Ctrl+C para cerrar.
+Extrae el ZIP completo y abre `Iniciar-LECTA-STEAM.cmd`. El paquete incluye .NET.
+Antes de actualizar, guarda, cierra la aplicación y conserva una copia de su carpeta de datos.
+Extrae la nueva versión en una carpeta distinta y no ejecutes ambas simultáneamente.
+Los datos locales del usuario se conservan en `%LOCALAPPDATA%\LectaSteam\Data`.
+Esta actualización no añade migraciones de base de datos.
 
-## Datos y actualización
-
-Los datos se guardan en `%LOCALAPPDATA%\LectaSteam\Data`. Antes de actualizar, cierra el programa y copia esa carpeta. Extrae cada nueva versión en una carpeta distinta; no ejecutes dos versiones simultáneamente.
-
-## Alcance de la prueba
-
-El responsable del proyecto confirma el funcionamiento en el equipo de desarrollo y en un segundo equipo Windows x64. Revisa las actividades antes de entregarlas al alumnado. Los archivos `.lecta` contienen también el solucionario y las notas del docente.
-
-No se necesita clave API para usar LECTA STEAM. El chat externo utilizado para la generación asistida tiene sus propias condiciones de acceso.
+LECTA STEAM no exige clave API. Las funciones asistidas utilizan el chat externo elegido
+por el docente mediante copia de instrucciones y respuestas, con las condiciones de ese servicio.
