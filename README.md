@@ -6,13 +6,13 @@ Este repositorio público reúne documentación, novedades y descargas. El códi
 
 ## Estado del proyecto
 
-Versión piloto: **0.1.0-piloto.1**, para **Windows x64**. El responsable del proyecto confirma que el paquete funciona tanto en el equipo de desarrollo como en un segundo ordenador Windows x64. Es una versión en evaluación y puede presentar incidencias.
+Versión piloto: **0.1.0-piloto.2**, para **Windows x64**. El responsable del proyecto confirma que pasan todas las pruebas y que el nuevo paquete extraído funciona correctamente. Es una versión en evaluación y puede presentar incidencias.
 
 ## Descargar y empezar
 
-**[Descargar LECTA STEAM 0.1.0-piloto.1 para Windows x64](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases/download/v0.1.0-piloto.1/LECTA-STEAM-0.1.0-piloto.1-win-x64-20261011-115409-452e9fff.zip)** · ZIP de aproximadamente 56 MB.
+**[Descargar LECTA STEAM 0.1.0-piloto.2 para Windows x64](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases/download/v0.1.0-piloto.2/LECTA-STEAM-0.1.0-piloto.2-win-x64-20261011-201016-8bedb982.zip)** · ZIP de aproximadamente 56 MB.
 
-Consulta las [notas de esta versión](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases/tag/v0.1.0-piloto.1) o el [historial de versiones publicadas](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases).
+Consulta las [notas de esta versión](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases/tag/v0.1.0-piloto.2) o el [historial de versiones publicadas](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases).
 
 1. Extrae el ZIP completo en una carpeta.
 2. Abre `Iniciar-LECTA-STEAM.cmd`.
@@ -26,11 +26,14 @@ Consulta la [guía docente](GUIA-DOCENTE.txt) para las instrucciones completas.
 ## Funciones disponibles
 
 - Crear, guardar, buscar y duplicar actividades.
+- Crear variantes independientes con apoyos de lectura.
+- Adaptar textos con ayuda de un chat y comparar la propuesta antes de incorporarla.
+- Revisar y sustituir preguntas individuales conservando su posición y metadatos.
 - Configurar dificultad y distribución por procesos de comprensión.
 - Añadir, editar, ordenar y eliminar preguntas, con respuestas esperadas, criterios, opciones y evidencias.
 - Preparar instrucciones para un chat de IA y revisar sus propuestas antes de incorporarlas.
 - Ajustar tamaño de letra, interlineado y separación de preguntas.
-- Revisar campos incompletos antes de imprimir.
+- Revisar campos incompletos y evidencias textuales antes de imprimir.
 - Previsualizar materiales del alumno y solucionario; obtener PDF mediante la impresión del navegador.
 - Exportar e importar actividades mediante archivos `.lecta`.
 
