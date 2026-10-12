@@ -6,13 +6,13 @@ Este repositorio público reúne documentación, novedades y descargas. El códi
 
 ## Estado del proyecto
 
-Versión piloto: **0.1.0-piloto.2**, para **Windows x64**. El responsable del proyecto confirma que pasan todas las pruebas y que el nuevo paquete extraído funciona correctamente. Es una versión en evaluación y puede presentar incidencias.
+Versión piloto: **0.1.0-piloto.3**, para **Windows x64**. El responsable del proyecto confirma que pasan todas las pruebas y que el nuevo paquete extraído funciona correctamente. Es una versión en evaluación y puede presentar incidencias.
 
 ## Descargar y empezar
 
-**[Descargar LECTA STEAM 0.1.0-piloto.2 para Windows x64](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases/download/v0.1.0-piloto.2/LECTA-STEAM-0.1.0-piloto.2-win-x64-20261011-201016-8bedb982.zip)** · ZIP de aproximadamente 56 MB.
+**[Descargar LECTA STEAM 0.1.0-piloto.3 para Windows x64](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases/download/v0.1.0-piloto.3/LECTA-STEAM-0.1.0-piloto.3-win-x64-20261012-174927-456aaa2c.zip)** · ZIP de aproximadamente 56 MB.
 
-Consulta las [notas de esta versión](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases/tag/v0.1.0-piloto.2) o el [historial de versiones publicadas](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases).
+Consulta las [notas de esta versión](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases/tag/v0.1.0-piloto.3) o el [historial de versiones publicadas](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases).
 
 1. Extrae el ZIP completo en una carpeta.
 2. Abre `Iniciar-LECTA-STEAM.cmd`.
@@ -33,6 +33,9 @@ Consulta la [guía docente](GUIA-DOCENTE.txt) para las instrucciones completas.
 - Añadir, editar, ordenar y eliminar preguntas, con respuestas esperadas, criterios, opciones y evidencias.
 - Preparar instrucciones para un chat de IA y revisar sus propuestas antes de incorporarlas.
 - Ajustar tamaño de letra, interlineado y separación de preguntas.
+- Mostrar la lectura en párrafos numerados.
+- Elegir de 0 a 10 líneas de respuesta por pregunta sin opciones.
+- Añadir instrucciones para el alumnado antes de las preguntas.
 - Revisar campos incompletos y evidencias textuales antes de imprimir.
 - Previsualizar materiales del alumno y solucionario; obtener PDF mediante la impresión del navegador.
 - Exportar e importar actividades mediante archivos `.lecta`.
@@ -44,6 +47,10 @@ La edición y el guardado funcionan localmente. LECTA STEAM no exige una clave A
 Las actividades se guardan en `%LOCALAPPDATA%\LectaSteam\Data`. No se sincronizan automáticamente con otros equipos. Cierra la aplicación antes de copiar esa carpeta como respaldo.
 
 Los archivos `.lecta` incluyen respuestas y notas docentes: están destinados al intercambio entre profesores. Para el alumnado, utiliza su vista o su PDF.
+
+Esta versión importa los formatos `.lecta` 1, 2 y 3, y exporta en formato 3. Actualiza la aplicación en los equipos que vayan a abrir los archivos nuevos.
+
+La base de datos se actualiza al iniciar, con una copia previa en `CopiasAntesDeActualizar` dentro de la carpeta de datos.
 
 ## Evolución e incidencias
 

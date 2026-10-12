@@ -1,5 +1,20 @@
 # Historial de cambios
 
+## 0.1.0-piloto.3 — 12 de octubre de 2026
+
+- Párrafos numerados opcionales en la vista del alumno y su PDF.
+- Entre 0 y 10 líneas de respuesta por pregunta sin opciones.
+- Instrucciones para el alumnado, disponibles al crear y editar actividades.
+- Persistencia de los ajustes al guardar, duplicar, crear variantes y compartir.
+- Importación de archivos .lecta de formatos 1, 2 y 3; exportación en formato 3.
+- Migraciones para los nuevos campos, con copia previa también en desarrollo.
+- Guía docente actualizada.
+
+El responsable confirma todas las pruebas superadas y el funcionamiento del paquete extraído.
+El SHA-256 publicado por GitHub coincide con el generado durante el empaquetado.
+
+[Notas y SHA-256](versiones/0.1.0-piloto.3.md).
+
 ## 0.1.0-piloto.2 — 12 de octubre de 2026
 
 - Inicio en español con ayuda y accesos para docentes.

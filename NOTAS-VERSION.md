@@ -1,47 +1,46 @@
-# LECTA STEAM 0.1.0-piloto.2
+# LECTA STEAM 0.1.0-piloto.3
 
 Paquete piloto para Windows x64, publicado el 12 de octubre de 2026.
 
-[Descargar el ZIP](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases/download/v0.1.0-piloto.2/LECTA-STEAM-0.1.0-piloto.2-win-x64-20261011-201016-8bedb982.zip) · [Ver la publicación](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases/tag/v0.1.0-piloto.2).
+[Descargar el ZIP](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases/download/v0.1.0-piloto.3/LECTA-STEAM-0.1.0-piloto.3-win-x64-20261012-174927-456aaa2c.zip) · [Ver la publicación](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases/tag/v0.1.0-piloto.3).
 
 ## Novedades
 
-- Pantalla de inicio en español con accesos y ayuda para docentes.
-- Creación de variantes independientes con nombre y apoyos de lectura.
-- Adaptación asistida del texto: vocabulario accesible, frases breves y explicación de términos.
-- Comparación del texto original y la propuesta antes de incorporarla.
-- Revisión asistida de preguntas individuales con sus respuestas, criterios y evidencias.
-- Sustitución de preguntas conservando su posición, proceso, formato, dificultad y puntuación.
-- Avisos sobre propuestas pendientes y evidencias que ya no aparecen literalmente en el texto.
+- Párrafos numerados opcionales en la lectura del alumno y su PDF, sin modificar el texto original.
+- Entre 0 y 10 líneas de respuesta por pregunta, aplicadas cuando no tiene opciones de respuesta.
+- Instrucciones para el alumnado al crear y editar actividades, mostradas antes de las preguntas.
+- Conservación de estos ajustes al guardar, duplicar, crear variantes y exportar/importar.
+- Actualización de la base de datos con copia previa también en desarrollo.
 - Guía docente actualizada.
 
-La revisión asistida admite respuesta breve, respuesta abierta y elección múltiple.
-La validación automática no sustituye la revisión pedagógica del docente.
+## Compatibilidad y actualización
+
+Las actividades existentes conservan tres líneas por pregunta y quedan sin instrucciones hasta que el docente las añada.
+
+Esta versión importa archivos .lecta de formatos 1, 2 y 3, y exporta en formato 3. Para abrir los archivos nuevos en otro equipo, actualiza también su aplicación. Los archivos .lecta contienen soluciones y notas docentes; para el alumnado utiliza su vista o PDF.
+
+Guarda y cierra la aplicación, conserva una copia de su carpeta de datos y extrae el ZIP nuevo en otra carpeta. Abre `Iniciar-LECTA-STEAM.cmd`; el paquete incluye .NET. No ejecutes dos versiones simultáneamente.
+
+Los datos locales permanecen en `%LOCALAPPDATA%\LectaSteam\Data`. Esta actualización añade campos para líneas de respuesta e instrucciones. Antes de aplicar migraciones pendientes a una base existente, se guarda una copia en `CopiasAntesDeActualizar`, dentro de su carpeta de datos. No sustituye las copias de seguridad habituales.
 
 ## Validación comunicada
 
-El responsable del proyecto confirma que pasan todas las pruebas y que el nuevo paquete
-extraído funciona correctamente. Esta versión continúa en fase piloto.
+El responsable del proyecto confirma compilación correcta, todas las pruebas superadas y funcionamiento del paquete extraído, incluidos los ajustes nuevos y el PDF. Esta versión continúa en fase piloto.
 
 ## Archivo del programa
 
-`LECTA-STEAM-0.1.0-piloto.2-win-x64-20261011-201016-8bedb982.zip`
+`LECTA-STEAM-0.1.0-piloto.3-win-x64-20261012-174927-456aaa2c.zip`
 
-SHA-256: coincide con el valor del empaquetado y con el digest del archivo publicado en GitHub.
+SHA-256 verificado contra el valor del empaquetado y el digest publicado por GitHub:
 
 ```text
-3AE2FDD007B8823C146861315412739B26F205F9B2AD2D4FCE8048D276E441DA
+8E6639BA8F6931315AC5FD167F9733290C38988A0314845CDD4829A58980F330
 ```
 
-Este valor corresponde a ese ZIP concreto; si se genera otro, deberá verificarse su nuevo hash.
+Este valor corresponde a este ZIP concreto.
 
-## Inicio y actualización
+## Uso local
 
-Extrae el ZIP completo y abre `Iniciar-LECTA-STEAM.cmd`. El paquete incluye .NET.
-Antes de actualizar, guarda, cierra la aplicación y conserva una copia de su carpeta de datos.
-Extrae la nueva versión en una carpeta distinta y no ejecutes ambas simultáneamente.
-Los datos locales del usuario se conservan en `%LOCALAPPDATA%\LectaSteam\Data`.
-Esta actualización no añade migraciones de base de datos.
+LECTA STEAM no exige clave API. La generación asistida utiliza un chat externo mediante copia de instrucciones y respuestas, sujeto a las condiciones de ese servicio.
 
-LECTA STEAM no exige clave API. Las funciones asistidas utilizan el chat externo elegido
-por el docente mediante copia de instrucciones y respuestas, con las condiciones de ese servicio.
+El siguiente bloque de desarrollo será la revisión del diseño y la organización de la interfaz.
