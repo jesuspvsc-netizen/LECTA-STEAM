@@ -1,4 +1,4 @@
-LECTA STEAM — 0.1.0-piloto.1
+LECTA STEAM — 0.1.0-piloto.2
 Prueba local para docentes · Windows x64
 
 ABRIR
@@ -24,13 +24,36 @@ PRIMERA ACTIVIDAD
   acceso a su servicio y puede tener límites propios. LECTA STEAM no pide clave API.
 - Guarda cambios para permanecer en el editor, o Guardar y volver para ir al listado.
 
+CREAR Y ADAPTAR UNA VARIANTE
+1. En Mis actividades pulsa Crear variante, indica un nombre distinto y elige
+   los apoyos de presentación. Se crea una copia independiente en borrador.
+2. Abre la variante. Bajo Texto de partida encontrarás Adaptar texto con ayuda
+   de IA. Elige vocabulario más accesible, frases breves o explicación de términos.
+3. Prepara las instrucciones, cópialas al chat y pega el cuerpo de su respuesta.
+   Compara ambos textos, revisa la propuesta y confirma antes de incorporarla.
+4. Pulsa Guardar cambios. La adaptación no modifica la actividad original.
+
+REVISAR LAS PREGUNTAS TRAS ADAPTAR EL TEXTO
+En Revisar preguntas con el texto actual, selecciona una pregunta y prepara las
+instrucciones. El chat recibe el texto actual, la pregunta con su solución y
+evidencias, y los enunciados de las otras preguntas.
+Pega el JSON completo, pulsa Validar y comparar propuesta y comprueba su calidad.
+Solo al confirmar y pulsar Sustituir pregunta se aplica el cambio; después guarda.
+Se mantienen la posición, el proceso, el formato, la dificultad y la puntuación.
+La revisión asistida admite respuesta breve, respuesta abierta y elección múltiple.
+Los demás formatos se revisan manualmente. La señal Revisar evidencias no detecta
+todos los problemas: comprueba también sentido, respuestas y dificultad.
+Las propuestas pegadas son temporales y no se guardan hasta incorporarlas.
+Descartar y reiniciar permite abandonarlas sin sustituir el contenido actual.
+
 REVISAR E IMPRIMIR
 Las preguntas aparecen compactas. Pulsa Editar para desplegar una, o Expandir todas.
 Si eliminas una por error, puedes deshacer la última eliminación antes de guardar.
 En Presentación y apoyos de lectura ajusta letra, interlineado y separación.
 Previsualiza la vista del alumno o el solucionario y pulsa Imprimir / PDF.
-La aplicación avisa de algunos campos incompletos. La revisión docente del contenido
-sigue siendo necesaria. Comprueba que entregas el PDF del alumno, no el solucionario.
+La aplicación avisa de algunos campos incompletos y de fragmentos de evidencia que
+ya no aparecen literalmente en el texto. La revisión docente del contenido sigue
+siendo necesaria. Comprueba que entregas el PDF del alumno, no el solucionario.
 
 COMPARTIR ACTIVIDADES
 En Mis actividades utiliza la exportación .lecta. Otro docente puede importar el
