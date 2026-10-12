@@ -1,5 +1,20 @@
 # Historial de cambios
 
+## 0.1.0-piloto.2 — 12 de octubre de 2026
+
+- Inicio en español con ayuda y accesos para docentes.
+- Variantes independientes con nombre y apoyos de lectura.
+- Adaptación asistida del texto, con comparación previa e incorporación explícita.
+- Revisión asistida y sustitución de preguntas individuales sin aumentar su número.
+- Conservación de posición, proceso, formato, dificultad y puntuación al sustituir.
+- Avisos de propuestas pendientes y de evidencias que ya no aparecen en el texto.
+- Guía docente actualizada.
+
+El responsable del proyecto confirma todas las pruebas correctas y el funcionamiento
+del nuevo paquete extraído. No se añaden migraciones de base de datos.
+
+[Notas y SHA-256](versiones/0.1.0-piloto.2.md).
+
 ## 0.1.0-piloto.1 — 11 de octubre de 2026
 
 Primera versión piloto preparada como paquete local para Windows x64.
