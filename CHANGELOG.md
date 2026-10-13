@@ -1,5 +1,17 @@
 # Historial de cambios
 
+## 0.1.0-piloto.4 — paquete validado, publicación pendiente
+
+- Pestañas en creación y edición; apartados plegables.
+- Menú ⋮ en Mis actividades y apertura por el título.
+- Accesos entre IA, adaptaciones, revisión de preguntas y PDF.
+- Repaso de colores, controles, espaciado y navegación en ventanas estrechas.
+- Sin nuevas migraciones respecto a piloto.3.
+
+El 13 de octubre de 2026, el responsable confirma compilación, pruebas y funcionamiento del paquete extraído.
+
+[Notas y SHA-256](versiones/0.1.0-piloto.4.md).
+
 ## 0.1.0-piloto.3 — 12 de octubre de 2026
 
 - Párrafos numerados opcionales en la vista del alumno y su PDF.

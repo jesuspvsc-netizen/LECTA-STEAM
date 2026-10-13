@@ -8,6 +8,8 @@ Este repositorio público reúne documentación, novedades y descargas. El códi
 
 Versión piloto: **0.1.0-piloto.3**, para **Windows x64**. El responsable del proyecto confirma que pasan todas las pruebas y que el nuevo paquete extraído funciona correctamente. Es una versión en evaluación y puede presentar incidencias.
 
+La **0.1.0-piloto.4** ya ha sido validada en Windows y está pendiente de publicación del paquete. Consulta [sus novedades y SHA-256](versiones/0.1.0-piloto.4.md).
+
 ## Descargar y empezar
 
 **[Descargar LECTA STEAM 0.1.0-piloto.3 para Windows x64](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases/download/v0.1.0-piloto.3/LECTA-STEAM-0.1.0-piloto.3-win-x64-20261012-174927-456aaa2c.zip)** · ZIP de aproximadamente 56 MB.
