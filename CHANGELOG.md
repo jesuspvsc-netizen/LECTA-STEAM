@@ -1,6 +1,6 @@
 # Historial de cambios
 
-## 0.1.0-piloto.4 — paquete validado, publicación pendiente
+## 0.1.0-piloto.4 — 13 de octubre de 2026
 
 - Pestañas en creación y edición; apartados plegables.
 - Menú ⋮ en Mis actividades y apertura por el título.
@@ -8,7 +8,7 @@
 - Repaso de colores, controles, espaciado y navegación en ventanas estrechas.
 - Sin nuevas migraciones respecto a piloto.3.
 
-El 13 de octubre de 2026, el responsable confirma compilación, pruebas y funcionamiento del paquete extraído.
+El responsable confirma compilación, pruebas y funcionamiento del paquete extraído. El SHA-256 del ZIP publicado por GitHub coincide con el del empaquetado.
 
 [Notas y SHA-256](versiones/0.1.0-piloto.4.md).
 

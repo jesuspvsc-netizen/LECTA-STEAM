@@ -1,46 +1,39 @@
-# LECTA STEAM 0.1.0-piloto.3
+# LECTA STEAM 0.1.0-piloto.4
 
-Paquete piloto para Windows x64, publicado el 12 de octubre de 2026.
+Publicada el 13 de octubre de 2026 como versión piloto para Windows x64.
 
-[Descargar el ZIP](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases/download/v0.1.0-piloto.3/LECTA-STEAM-0.1.0-piloto.3-win-x64-20261012-174927-456aaa2c.zip) · [Ver la publicación](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases/tag/v0.1.0-piloto.3).
+[Descargar ZIP](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases/download/v0.1.0-piloto.4/LECTA-STEAM-0.1.0-piloto.4-win-x64-20261013-111452-a987269d.zip) · [Ver publicación](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases/tag/v0.1.0-piloto.4).
 
 ## Novedades
 
-- Párrafos numerados opcionales en la lectura del alumno y su PDF, sin modificar el texto original.
-- Entre 0 y 10 líneas de respuesta por pregunta, aplicadas cuando no tiene opciones de respuesta.
-- Instrucciones para el alumnado al crear y editar actividades, mostradas antes de las preguntas.
-- Conservación de estos ajustes al guardar, duplicar, crear variantes y exportar/importar.
-- Actualización de la base de datos con copia previa también en desarrollo.
-- Guía docente actualizada.
+- Navegación por pestañas en la creación y edición de actividades.
+- Apartados plegables para consultar la información por partes.
+- Instrucciones para el alumnado visibles en la pestaña Actividad y notas docentes separadas.
+- En Mis actividades, apertura por el título y menú ⋮ con Duplicar, Exportar .lecta y Crear variante. Importación y filtros plegables.
+- Accesos entre IA, adaptación del texto, revisión de preguntas y vista previa.
+- Conservación de los borradores al cambiar de pestaña durante la edición y accesos a las propuestas pendientes.
+- Colores azules coherentes, controles y espaciado uniformes, indicadores de foco para teclado.
+- Menú lateral recogido por debajo de 992 píxeles y botones de guardado al final del formulario en pantallas pequeñas.
 
-## Compatibilidad y actualización
+## Compatibilidad
 
-Las actividades existentes conservan tres líneas por pregunta y quedan sin instrucciones hasta que el docente las añada.
+No cambia el modelo de datos ni se añaden migraciones respecto a piloto.3.
+Se importan archivos .lecta de formatos 1, 2 y 3 y se exporta en formato 3.
+Se mantienen los ajustes de instrucciones, párrafos numerados y líneas de respuesta.
+La aplicación sigue siendo local para Windows x64, con .NET incluido. La generación asistida no exige una clave API.
 
-Esta versión importa archivos .lecta de formatos 1, 2 y 3, y exporta en formato 3. Para abrir los archivos nuevos en otro equipo, actualiza también su aplicación. Los archivos .lecta contienen soluciones y notas docentes; para el alumnado utiliza su vista o PDF.
+Cambiar de pestaña no guarda en disco: hay que guardar antes de salir. Las propuestas de IA se conservan de forma temporal durante la edición; incorpora las propuestas aceptadas y guarda.
 
-Guarda y cierra la aplicación, conserva una copia de su carpeta de datos y extrae el ZIP nuevo en otra carpeta. Abre `Iniciar-LECTA-STEAM.cmd`; el paquete incluye .NET. No ejecutes dos versiones simultáneamente.
+## Validación y empaquetado
 
-Los datos locales permanecen en `%LOCALAPPDATA%\LectaSteam\Data`. Esta actualización añade campos para líneas de respuesta e instrucciones. Antes de aplicar migraciones pendientes a una base existente, se guarda una copia en `CopiasAntesDeActualizar`, dentro de su carpeta de datos. No sustituye las copias de seguridad habituales.
+El responsable confirma compilación correcta, todas las pruebas superadas y funcionamiento del paquete extraído en Windows. No se ha ejecutado .NET en el entorno remoto.
 
-## Validación comunicada
+Archivo: `LECTA-STEAM-0.1.0-piloto.4-win-x64-20261013-111452-a987269d.zip`
 
-El responsable del proyecto confirma compilación correcta, todas las pruebas superadas y funcionamiento del paquete extraído, incluidos los ajustes nuevos y el PDF. Esta versión continúa en fase piloto.
-
-## Archivo del programa
-
-`LECTA-STEAM-0.1.0-piloto.3-win-x64-20261012-174927-456aaa2c.zip`
-
-SHA-256 verificado contra el valor del empaquetado y el digest publicado por GitHub:
+SHA-256 del empaquetado, coincidente con el digest publicado por GitHub:
 
 ```text
-8E6639BA8F6931315AC5FD167F9733290C38988A0314845CDD4829A58980F330
+A5295F3D848C85E884F3331117437F7087C6E82E8CB6CF726DA292110F3570DE
 ```
 
-Este valor corresponde a este ZIP concreto.
-
-## Uso local
-
-LECTA STEAM no exige clave API. La generación asistida utiliza un chat externo mediante copia de instrucciones y respuestas, sujeto a las condiciones de ese servicio.
-
-El siguiente bloque de desarrollo será la revisión del diseño y la organización de la interfaz.
+El archivo publicado coincide con el SHA-256 comunicado durante el empaquetado. Guarda y cierra la aplicación antes de actualizar; conserva una copia de la carpeta de datos y extrae el ZIP en una carpeta nueva.

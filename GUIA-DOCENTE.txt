@@ -1,4 +1,4 @@
-LECTA STEAM — 0.1.0-piloto.3
+LECTA STEAM — 0.1.0-piloto.4
 Prueba local para docentes · Windows x64
 
 ABRIR
@@ -16,27 +16,40 @@ Cerrar una pestaña del navegador no detiene el programa.
 Si vuelves a abrirlo mientras ya se está ejecutando, utiliza la primera ventana.
 
 PRIMERA ACTIVIDAD
-- Pulsa Nueva actividad, escribe un título y el contexto educativo y pega el texto.
-- Puedes escribir Instrucciones para el alumnado antes de Texto de partida.
-  Son opcionales y aparecerán antes de las preguntas en la vista del alumno y su PDF.
-- Configura los procesos de comprensión y guarda para abrir el editor.
-- Añade preguntas manualmente o utiliza Generación asistida de preguntas.
-- Para la generación asistida, copia las instrucciones a tu chat de IA, pega aquí
-  su respuesta y revisa las propuestas antes de incorporarlas. Ese chat requiere
-  acceso a su servicio y puede tener límites propios. LECTA STEAM no pide clave API.
+- Pulsa Nueva actividad. En Actividad, escribe título, contexto educativo e
+  instrucciones opcionales para el alumnado. En Texto, pega la lectura.
+- Configura los procesos en Comprensión. IA permite preparar un texto con ayuda
+  de un chat externo. Guarda para abrir el editor completo.
+- En Preguntas, despliega el listado para añadir o editar preguntas manualmente.
+- En IA encontrarás Generación asistida de preguntas: copia las instrucciones
+  al chat, pega su respuesta y revisa las propuestas antes de incorporarlas.
+  Ese chat puede tener requisitos y límites propios. LECTA STEAM no pide clave API.
 - Guarda cambios para permanecer en el editor, o Guardar y volver para ir al listado.
 
+ORIENTARSE EN EL EDITOR
+Actividad: instrucciones para el alumnado, datos generales y notas del docente.
+Texto: lectura y datos del recurso.
+Preguntas: configuración de comprensión y listado de preguntas.
+IA: generación y revisión de preguntas.
+Adaptaciones: apoyos de presentación y adaptación del texto con IA.
+Vista y PDF: revisión previa, vista del alumno, solucionario e impresión.
+Pulsa el encabezado de un apartado para plegarlo o desplegarlo. Cambiar de
+pestaña mantiene los campos y borradores durante la edición; guarda antes de salir.
+Las propuestas de IA son temporales hasta incorporarlas y guardar.
+Las pestañas admiten flechas izquierda/derecha, Inicio y Fin; Tab permite recorrer
+los controles. En ventanas estrechas, abre la navegación con el botón de menú.
+
 CREAR Y ADAPTAR UNA VARIANTE
-1. En Mis actividades pulsa Crear variante, indica un nombre distinto y elige
+1. En Mis actividades pulsa ⋮ y después Crear variante, indica un nombre distinto y elige
    los apoyos de presentación. Se crea una copia independiente en borrador.
-2. Abre la variante. Bajo Texto de partida encontrarás Adaptar texto con ayuda
+2. Abre la variante. En Adaptaciones encontrarás Adaptar texto con ayuda
    de IA. Elige vocabulario más accesible, frases breves o explicación de términos.
 3. Prepara las instrucciones, cópialas al chat y pega el cuerpo de su respuesta.
    Compara ambos textos, revisa la propuesta y confirma antes de incorporarla.
 4. Pulsa Guardar cambios. La adaptación no modifica la actividad original.
 
 REVISAR LAS PREGUNTAS TRAS ADAPTAR EL TEXTO
-En Revisar preguntas con el texto actual, selecciona una pregunta y prepara las
+En IA, despliega Revisar preguntas con el texto actual, selecciona una pregunta y prepara las
 instrucciones. El chat recibe el texto actual, la pregunta con su solución y
 evidencias, y los enunciados de las otras preguntas.
 Pega el JSON completo, pulsa Validar y comparar propuesta y comprueba su calidad.
@@ -49,23 +62,24 @@ Las propuestas pegadas son temporales y no se guardan hasta incorporarlas.
 Descartar y reiniciar permite abandonarlas sin sustituir el contenido actual.
 
 REVISAR E IMPRIMIR
-Las preguntas aparecen compactas. Pulsa Editar para desplegar una, o Expandir todas.
+En Preguntas, despliega Preguntas de la actividad. Las preguntas aparecen compactas. Pulsa Editar para desplegar una, o Expandir todas.
 Si eliminas una por error, puedes deshacer la última eliminación antes de guardar.
-En Presentación y apoyos de lectura ajusta letra, interlineado y separación.
+En Adaptaciones, en Presentación y apoyos de lectura, ajusta letra, interlineado y separación.
 También puedes activar Mostrar el texto en párrafos numerados: cada bloque
 separado por una línea en blanco se numera en la vista del alumno y su PDF.
 No modifica el texto original ni las evidencias.
 Al editar una pregunta, Líneas para responder permite elegir de 0 a 10 líneas.
 Se aplica a las preguntas sin opciones de respuesta; las existentes conservan 3.
 Guarda la actividad para conservar estos ajustes.
-Previsualiza la vista del alumno o el solucionario y pulsa Imprimir / PDF.
+En Vista y PDF, previsualiza la vista del alumno o el solucionario y pulsa Imprimir / PDF.
 La aplicación avisa de algunos campos incompletos y de fragmentos de evidencia que
 ya no aparecen literalmente en el texto. La revisión docente del contenido sigue
 siendo necesaria. Comprueba que entregas el PDF del alumno, no el solucionario.
 
 COMPARTIR ACTIVIDADES
-En Mis actividades utiliza la exportación .lecta. Otro docente puede importar el
-archivo en su instalación y editar su propia copia. El archivo .lecta incluye
+En Mis actividades abre por el título o pulsa ⋮ para Duplicar, Exportar .lecta
+ o Crear variante. Importación y filtros tienen apartados plegables. Otro docente
+puede importar el archivo en su instalación y editar su propia copia. El archivo .lecta incluye
 respuestas, criterios y notas del docente: es para intercambiar entre docentes.
 Para el alumnado utiliza la vista del alumno o su PDF.
 Esta versión importa los formatos .lecta 1, 2 y 3 y exporta en formato 3.
@@ -82,9 +96,9 @@ la carpeta del programa a otro equipo, tus actividades no viajan con ella.
 COPIA DE SEGURIDAD
 Cierra LECTA STEAM con Ctrl+C y copia la carpeta Data completa a una ubicación segura.
 Los archivos .lecta permiten además conservar o trasladar actividades individuales.
-Esta versión actualiza la estructura de la base de datos para guardar líneas de
-respuesta e instrucciones. Antes de aplicar migraciones pendientes, guarda una
-copia en Data\CopiasAntesDeActualizar. Esa copia no sustituye tus copias habituales.
+No hay nuevas migraciones respecto a piloto.3. Si vienes de una versión anterior,
+antes de aplicar migraciones pendientes la aplicación guarda una copia en
+Data\CopiasAntesDeActualizar. Esa copia no sustituye tus copias habituales.
 
 ACTUALIZAR
 Guarda y cierra la aplicación. Extrae el nuevo ZIP en una carpeta nueva y usa su
