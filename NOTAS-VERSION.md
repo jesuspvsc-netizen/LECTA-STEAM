@@ -1,29 +1,56 @@
-# LECTA STEAM 0.1.0-piloto.4
+# LECTA STEAM 0.1.0-piloto.5
 
-Publicada el 13 de octubre de 2026 como versión piloto para Windows x64.
+Publicada el 14 de octubre de 2026 como versión piloto para Windows x64.
 
-[Descargar ZIP](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases/download/v0.1.0-piloto.4/LECTA-STEAM-0.1.0-piloto.4-win-x64-20261013-111452-a987269d.zip) · [Ver publicación](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases/tag/v0.1.0-piloto.4).
+[Descargar ZIP](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases/download/v0.1.0-piloto.5/LECTA-STEAM-0.1.0-piloto.5-win-x64-20261014-113015-974af63e.zip) · [Ver publicación](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases/tag/v0.1.0-piloto.5).
 
-Novedades
-Navegación por pestañas en la creación y edición de actividades.
-Apartados plegables para consultar la información por partes.
-Instrucciones para el alumnado visibles en la pestaña Actividad y notas docentes separadas.
-En Mis actividades, apertura por el título y menú ⋮ con Duplicar, Exportar .lecta y Crear variante. Importación y filtros plegables.
-Accesos entre IA, adaptación del texto, revisión de preguntas y vista previa.
-Conservación de los borradores al cambiar de pestaña durante la edición y accesos a las propuestas pendientes.
-Colores azules coherentes, controles y espaciado uniformes, indicadores de foco para teclado.
-Menú lateral recogido por debajo de 992 píxeles y botones de guardado al final del formulario en pantallas pequeñas.
-Compatibilidad
-No cambia el modelo de datos ni se añaden migraciones respecto a piloto.3. Se importan archivos .lecta de formatos 1, 2 y 3 y se exporta en formato 3. Se mantienen los ajustes de instrucciones, párrafos numerados y líneas de respuesta. La aplicación sigue siendo local para Windows x64, con .NET incluido. La generación asistida no exige una clave API.
+## Novedades
 
-Cambiar de pestaña no guarda en disco: hay que guardar antes de salir. Las propuestas de IA se conservan de forma temporal durante la edición; incorpora las propuestas aceptadas y guarda.
+- Glosario editable por actividad, con términos, definiciones y orden.
+- Apartado plegable en Adaptaciones y visualización opcional en la ficha del alumnado y su PDF.
+- Propuestas de términos con ayuda de un chat externo, sin API obligatoria.
+- Validación del JSON, términos literales, duplicados, límites y cambios de contexto.
+- Revisión y edición docente antes de incorporar solo las entradas seleccionadas.
+- Conservación de glosarios en guardado, duplicado, variantes e intercambio .lecta.
+- Guía docente con recorridos diferenciados para adaptar la lectura y crear el glosario.
 
-Validación y empaquetado
-El responsable confirma compilación correcta, todas las pruebas superadas y funcionamiento del paquete extraído en Windows. No se ha ejecutado .NET en el entorno remoto.
+## Compatibilidad y actualización
 
-Archivo: LECTA-STEAM-0.1.0-piloto.4-win-x64-20261013-111452-a987269d.zip
+Se importan formatos .lecta 1, 2, 3 y 4 y se exporta en formato 4. Para compartir los archivos nuevos,
+el equipo receptor necesita piloto.5 o una versión posterior compatible.
+Las actividades antiguas conservan su contenido y empiezan con un glosario vacío.
+La migración añade la tabla TerminosGlosario. Antes de aplicar migraciones pendientes, el programa
+crea una copia en CopiasAntesDeActualizar dentro de su carpeta de datos.
 
-SHA-256 del empaquetado, coincidente con el digest publicado por GitHub:
+Guarda y cierra la aplicación y haz una copia de la carpeta de datos antes de actualizar.
+Extrae el paquete en una carpeta nueva y abre Iniciar-LECTA-STEAM.cmd.
+No ejecutes dos versiones locales a la vez.
 
-A5295F3D848C85E884F3331117437F7087C6E82E8CB6CF726DA292110F3570DE
-El archivo publicado coincide con el SHA-256 comunicado durante el empaquetado. Guarda y cierra la aplicación antes de actualizar; conserva una copia de la carpeta de datos y extrae el ZIP en una carpeta nueva.
+## Uso del glosario
+
+Abre una actividad guardada y entra en Adaptaciones → Glosario de la lectura.
+Para propuestas del chat, despliega dentro Proponer glosario con IA.
+El glosario se muestra como apartado separado tras la lectura: no resalta las palabras del texto.
+Desmarcar su visualización no elimina los términos. Guarda después de incorporar las propuestas.
+Las definiciones requieren revisión docente; la validación no certifica su corrección.
+
+## Validación comunicada y paquete
+
+El 14 de octubre de 2026 el responsable confirma el funcionamiento del glosario manual, su presentación,
+el flujo asistido y todas las pruebas, incluidas PropuestaGlosarioTests.
+No se ha ejecutado .NET en el entorno remoto.
+
+El responsable confirma también la compilación y el funcionamiento del paquete probado en Windows.
+
+## Archivo del programa
+
+`LECTA-STEAM-0.1.0-piloto.5-win-x64-20261014-113015-974af63e.zip`
+
+SHA-256 del empaquetado, coincidente con el digest del archivo publicado por GitHub:
+
+```text
+7F96AEF5CDE57CB13AFC409B68DE8EE1B18A2EB42F6E8CAB451ABB395CC114D5
+```
+
+Este valor corresponde a este ZIP concreto. Descarga el archivo del programa adjunto a la publicación;
+los archivos automáticos Source code de GitHub contienen la documentación del repositorio público.

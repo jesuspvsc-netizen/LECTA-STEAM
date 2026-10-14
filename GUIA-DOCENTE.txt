@@ -1,4 +1,4 @@
-LECTA STEAM — 0.1.0-piloto.4
+LECTA STEAM — 0.1.0-piloto.5
 Prueba local para docentes · Windows x64
 
 ABRIR
@@ -31,7 +31,7 @@ Actividad: instrucciones para el alumnado, datos generales y notas del docente.
 Texto: lectura y datos del recurso.
 Preguntas: configuración de comprensión y listado de preguntas.
 IA: generación y revisión de preguntas.
-Adaptaciones: apoyos de presentación y adaptación del texto con IA.
+Adaptaciones: apoyos de presentación, glosario y adaptación del texto con IA.
 Vista y PDF: revisión previa, vista del alumno, solucionario e impresión.
 Pulsa el encabezado de un apartado para plegarlo o desplegarlo. Cambiar de
 pestaña mantiene los campos y borradores durante la edición; guarda antes de salir.
@@ -61,6 +61,30 @@ todos los problemas: comprueba también sentido, respuestas y dificultad.
 Las propuestas pegadas son temporales y no se guardan hasta incorporarlas.
 Descartar y reiniciar permite abandonarlas sin sustituir el contenido actual.
 
+GLOSARIO DE LA LECTURA
+En Adaptaciones → Glosario de la lectura puedes añadir términos y definiciones,
+cambiar su orden o eliminarlos. Guarda para conservarlos.
+Marca Mostrar el glosario en la ficha y el PDF del alumnado para verlo después
+de la lectura y antes de las instrucciones y preguntas. Ocultarlo no elimina sus entradas.
+El glosario no resalta las palabras dentro del texto ni se añade al solucionario.
+
+Para recibir propuestas del chat, abre dentro del glosario Proponer glosario con IA:
+1. Elige de 1 a 20 términos como máximo y pulsa Preparar instrucciones.
+2. Copia las instrucciones al chat. Deben comenzar por «Propón un glosario en español».
+3. Pega solo la respuesta JSON completa y pulsa Validar y revisar propuestas.
+4. Selecciona las entradas deseadas, corrige las definiciones y confirma su revisión.
+5. Pulsa Incorporar seleccionadas y después Guardar cambios.
+Las propuestas no seleccionadas se descartan al incorporar. Los términos existentes
+se conservan. La visualización en la ficha no se activa automáticamente.
+
+Adaptar texto con ayuda de IA es otra función: cambia la redacción de la lectura.
+Escribir «propón un glosario» en sus indicaciones no cambia de herramienta.
+Si has cambiado el texto, el contexto, las preguntas o el glosario mientras revisabas
+una propuesta, copia lo que quieras conservar y reinicia con instrucciones nuevas.
+La validación detecta estructura incorrecta, límites, duplicados y términos que no
+aparecen literalmente en el texto; no sustituye la revisión de las definiciones.
+Cambiar de pestaña conserva temporalmente la propuesta; incorpórala o descártala antes de salir.
+
 REVISAR E IMPRIMIR
 En Preguntas, despliega Preguntas de la actividad. Las preguntas aparecen compactas. Pulsa Editar para desplegar una, o Expandir todas.
 Si eliminas una por error, puedes deshacer la última eliminación antes de guardar.
@@ -82,7 +106,8 @@ En Mis actividades abre por el título o pulsa ⋮ para Duplicar, Exportar .lect
 puede importar el archivo en su instalación y editar su propia copia. El archivo .lecta incluye
 respuestas, criterios y notas del docente: es para intercambiar entre docentes.
 Para el alumnado utiliza la vista del alumno o su PDF.
-Esta versión importa los formatos .lecta 1, 2 y 3 y exporta en formato 3.
+Esta versión importa los formatos .lecta 1, 2, 3 y 4 y exporta en formato 4.
+Piloto.4 y las versiones anteriores no pueden importar el formato 4.
 Para abrir los nuevos archivos en otro equipo, actualiza también su aplicación.
 
 DÓNDE SE GUARDAN LOS DATOS
@@ -96,8 +121,9 @@ la carpeta del programa a otro equipo, tus actividades no viajan con ella.
 COPIA DE SEGURIDAD
 Cierra LECTA STEAM con Ctrl+C y copia la carpeta Data completa a una ubicación segura.
 Los archivos .lecta permiten además conservar o trasladar actividades individuales.
-No hay nuevas migraciones respecto a piloto.3. Si vienes de una versión anterior,
-antes de aplicar migraciones pendientes la aplicación guarda una copia en
+La actualización añade una tabla para el glosario. Las actividades anteriores
+mantienen su contenido y empiezan con un glosario vacío. Antes de aplicar
+migraciones pendientes la aplicación guarda una copia en
 Data\CopiasAntesDeActualizar. Esa copia no sustituye tus copias habituales.
 
 ACTUALIZAR

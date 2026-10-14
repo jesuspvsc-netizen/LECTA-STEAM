@@ -1,5 +1,20 @@
 # Historial de cambios
 
+## 0.1.0-piloto.5 — 14 de octubre de 2026
+
+- Glosario manual en Adaptaciones: términos, definiciones, orden y eliminación.
+- Visualización opcional después de la lectura en la ficha del alumnado y su PDF.
+- Propuestas de glosario con IA mediante chat externo, con revisión y selección docente.
+- Validación de estructura, duplicados, límites y cambios de contexto antes de incorporar.
+- Glosarios independientes al duplicar, crear variantes e importar.
+- Importación de formatos .lecta 1 a 4 y exportación en formato 4.
+- Migración para la tabla del glosario y guía docente actualizada.
+
+El responsable confirma todas las pruebas y el funcionamiento del paquete en Windows.
+El SHA-256 publicado por GitHub coincide con el generado durante el empaquetado.
+
+[Notas y SHA-256](versiones/0.1.0-piloto.5.md).
+
 ## 0.1.0-piloto.4 — 13 de octubre de 2026
 
 - Pestañas en creación y edición; apartados plegables.
