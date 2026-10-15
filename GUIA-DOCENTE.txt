@@ -1,4 +1,4 @@
-LECTA STEAM — 0.1.0-piloto.5
+LECTA STEAM — 0.1.0-piloto.6
 Prueba local para docentes · Windows x64
 
 ABRIR
@@ -32,7 +32,7 @@ Texto: lectura y datos del recurso.
 Preguntas: configuración de comprensión y listado de preguntas.
 IA: generación y revisión de preguntas.
 Adaptaciones: apoyos de presentación, glosario y adaptación del texto con IA.
-Vista y PDF: revisión previa, vista del alumno, solucionario e impresión.
+Vista y PDF: vista del alumno, solucionario, impresión, ficha digital y entregas.
 Pulsa el encabezado de un apartado para plegarlo o desplegarlo. Cambiar de
 pestaña mantiene los campos y borradores durante la edición; guarda antes de salir.
 Las propuestas de IA son temporales hasta incorporarlas y guardar.
@@ -100,12 +100,37 @@ La aplicación avisa de algunos campos incompletos y de fragmentos de evidencia 
 ya no aparecen literalmente en el texto. La revisión docente del contenido sigue
 siendo necesaria. Comprueba que entregas el PDF del alumno, no el solucionario.
 
+FICHAS DIGITALES, ENTREGAS Y DEVOLUCIÓN
+1. Guarda la actividad. En Vista y PDF pulsa Descargar ficha digital.
+   Admite respuesta breve, respuesta abierta y elección múltiple.
+2. El alumno descarga el HTML y lo abre en un navegador. Escribe su nombre o
+   código, responde y pulsa Descargar ficha con respuestas. No hay guardado
+   automático: debe comprobar la descarga antes de cerrar.
+3. Para continuar, abre la última copia con respuestas. Entrega ese HTML por
+   el medio indicado por el docente. Las vistas previas de correo o Drive
+   pueden no ejecutar la ficha: hay que descargarla y abrirla en el navegador.
+4. El docente abre LA MISMA ACTIVIDAD y entra en Vista y PDF → Entregas y revisión.
+   En Importar una entrega selecciona el HTML, comprueba el nombre e importa.
+   Una copia o variante es otra actividad, aunque tenga preguntas parecidas.
+5. Compara respuestas y solucionario. Añade observaciones por pregunta y un
+   comentario general. Marca Revisión terminada cuando corresponda y guarda.
+6. Pulsa Descargar ficha corregida. Devuelve ese HTML o ábrelo y pulsa
+   Imprimir / Guardar en PDF. Las observaciones escritas se comparten íntegramente.
+   El solucionario interno no se adjunta a la devolución.
+Las entregas y revisiones quedan guardadas en este equipo. No hay envío
+automático a correo o Drive ni calificación automática. El nombre del alumno
+es el escrito por él, no una identidad autenticada.
+Cambiar lectura, preguntas, opciones, instrucciones o glosario puede impedir
+importar fichas anteriores. Crea una variante antes de modificar un material
+ya distribuido y conserva la actividad original para recibir sus entregas.
+La ficha corregida es un documento de devolución, no una nueva entrega para importar.
+
 COMPARTIR ACTIVIDADES
 En Mis actividades abre por el título o pulsa ⋮ para Duplicar, Exportar .lecta
  o Crear variante. Importación y filtros tienen apartados plegables. Otro docente
 puede importar el archivo en su instalación y editar su propia copia. El archivo .lecta incluye
 respuestas, criterios y notas del docente: es para intercambiar entre docentes.
-Para el alumnado utiliza la vista del alumno o su PDF.
+Para el alumnado utiliza su vista, PDF o ficha digital.
 Esta versión importa los formatos .lecta 1, 2, 3 y 4 y exporta en formato 4.
 Piloto.4 y las versiones anteriores no pueden importar el formato 4.
 Para abrir los nuevos archivos en otro equipo, actualiza también su aplicación.
@@ -121,9 +146,9 @@ la carpeta del programa a otro equipo, tus actividades no viajan con ella.
 COPIA DE SEGURIDAD
 Cierra LECTA STEAM con Ctrl+C y copia la carpeta Data completa a una ubicación segura.
 Los archivos .lecta permiten además conservar o trasladar actividades individuales.
-La actualización añade una tabla para el glosario. Las actividades anteriores
-mantienen su contenido y empiezan con un glosario vacío. Antes de aplicar
-migraciones pendientes la aplicación guarda una copia en
+La actualización añade la tabla Entregas y conserva el material existente.
+Las entregas y observaciones no se incluyen al exportar .lecta: respalda Data
+para conservarlas. Antes de aplicar migraciones pendientes se guarda una copia en
 Data\CopiasAntesDeActualizar. Esa copia no sustituye tus copias habituales.
 
 ACTUALIZAR

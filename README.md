@@ -6,13 +6,13 @@ Este repositorio público reúne documentación, novedades y descargas. El códi
 
 ## Estado del proyecto
 
-Versión piloto: **0.1.0-piloto.5**, para **Windows x64**. El responsable del proyecto confirma que pasan todas las pruebas y que el nuevo paquete extraído funciona correctamente. Es una versión en evaluación y puede presentar incidencias.
+Versión piloto: **0.1.0-piloto.6**, para **Windows x64**. El responsable del proyecto confirma que pasan todas las pruebas y que el nuevo paquete extraído funciona correctamente. Es una versión en evaluación y puede presentar incidencias.
 
 ## Descargar y empezar
 
-**[Descargar LECTA STEAM 0.1.0-piloto.5 para Windows x64](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases/download/v0.1.0-piloto.5/LECTA-STEAM-0.1.0-piloto.5-win-x64-20261014-113015-974af63e.zip)** · ZIP de aproximadamente 56 MB.
+**[Descargar LECTA STEAM 0.1.0-piloto.6 para Windows x64](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases/download/v0.1.0-piloto.6/LECTA-STEAM-0.1.0-piloto.6-win-x64-20261015-121949-cf45a464.zip)** · ZIP de aproximadamente 56 MB.
 
-Consulta las [notas de esta versión](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases/tag/v0.1.0-piloto.5) o el [historial de versiones publicadas](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases).
+Consulta las [notas de esta versión](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases/tag/v0.1.0-piloto.6) o el [historial de versiones publicadas](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases).
 
 1. Extrae el ZIP completo en una carpeta.
 2. Abre `Iniciar-LECTA-STEAM.cmd`.
@@ -24,6 +24,11 @@ El paquete incluye el entorno .NET necesario. Conserva la carpeta `app` completa
 Consulta la [guía docente](GUIA-DOCENTE.txt) para las instrucciones completas.
 
 ## Funciones disponibles
+
+- Descargar fichas digitales para responder en el navegador y conservar una copia con respuestas.
+- Importar entregas en la actividad de origen y revisarlas junto al solucionario.
+- Guardar observaciones por pregunta, comentario general y estado de revisión.
+- Devolver fichas corregidas en HTML imprimible o PDF.
 
 - Crear un glosario editable y mostrarlo opcionalmente en la ficha del alumnado y el PDF.
 - Proponer términos con un chat de IA, revisar sus definiciones y seleccionar cuáles incorporar.
@@ -51,11 +56,15 @@ La edición y el guardado funcionan localmente. LECTA STEAM no exige una clave A
 
 Las actividades se guardan en `%LOCALAPPDATA%\LectaSteam\Data`. No se sincronizan automáticamente con otros equipos. Cierra la aplicación antes de copiar esa carpeta como respaldo.
 
-Los archivos `.lecta` incluyen respuestas y notas docentes: están destinados al intercambio entre profesores. Para el alumnado, utiliza su vista o su PDF.
+Los archivos `.lecta` incluyen respuestas y notas docentes: están destinados al intercambio entre profesores. Para el alumnado, utiliza su vista, PDF o ficha digital.
 
 Esta versión importa los formatos `.lecta` 1, 2, 3 y 4, y exporta en formato 4. Piloto.4 y las versiones anteriores no pueden importar los archivos nuevos: actualiza también el equipo receptor.
 
-Esta versión añade una tabla para el glosario. Las actividades anteriores conservan su contenido y empiezan con un glosario vacío. Las migraciones pendientes se aplican al iniciar con una copia previa en `CopiasAntesDeActualizar` dentro de la carpeta de datos.
+Esta versión añade una tabla para las entregas y conserva el material existente. Las migraciones pendientes se aplican al iniciar con una copia previa en `CopiasAntesDeActualizar` dentro de la carpeta de datos.
+
+Las entregas y sus observaciones se guardan localmente y no se incluyen al exportar `.lecta`. Para conservarlas, respalda la carpeta de datos completa. Una ficha pertenece a la actividad exacta que la generó; las copias y variantes tienen otra identidad.
+
+No hay envío automático a correo o Drive, ni calificación automática. El alumnado debe descargar su copia para conservar las respuestas.
 
 ## Evolución e incidencias
 

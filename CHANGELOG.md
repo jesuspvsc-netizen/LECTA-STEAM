@@ -1,5 +1,19 @@
 # Historial de cambios
 
+## 0.1.0-piloto.6 — 15 de octubre de 2026
+
+- Fichas digitales HTML para responder y descargar una copia con respuestas.
+- Importación de entregas en la actividad de origen y detección de duplicados.
+- Revisión docente con observaciones por pregunta, comentario general y estado pendiente/revisada.
+- Conservación de entregas y revisiones en SQLite.
+- Devolución de fichas corregidas en HTML imprimible o PDF.
+- Migración para la tabla Entregas y guía docente del recorrido completo.
+
+El responsable confirma todas las pruebas y el funcionamiento del paquete en Windows.
+El digest SHA-256 publicado por GitHub coincide con el comunicado durante el empaquetado.
+
+[Notas y SHA-256](versiones/0.1.0-piloto.6.md).
+
 ## 0.1.0-piloto.5 — 14 de octubre de 2026
 
 - Glosario manual en Adaptaciones: términos, definiciones, orden y eliminación.
