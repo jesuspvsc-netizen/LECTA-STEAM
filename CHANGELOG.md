@@ -1,5 +1,18 @@
 # Historial de cambios
 
+## 0.1.0-piloto.7
+
+- Búsqueda, filtros, ordenación y navegación entre entregas.
+- Diagnóstico de origen y contenido al importar fichas.
+- Importación de hasta 30 fichas, con comprobación previa y resultado por archivo.
+- Conservación de comentarios y revisiones al omitir entregas repetidas.
+- Devolución conjunta de hasta 30 fichas corregidas seleccionadas en ZIP.
+- Sin nuevas migraciones respecto a piloto.6.
+
+Todas las pruebas y el paquete extraído han sido comprobados por el docente. Publicación y SHA-256 del ZIP verificados el 3 de noviembre de 2026.
+
+[Notas y SHA-256](versiones/0.1.0-piloto.7.md).
+
 ## 0.1.0-piloto.6 — 15 de octubre de 2026
 
 - Fichas digitales HTML para responder y descargar una copia con respuestas.

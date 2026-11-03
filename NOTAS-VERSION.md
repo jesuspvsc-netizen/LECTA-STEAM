@@ -1,62 +1,35 @@
-# LECTA STEAM 0.1.0-piloto.6
+# LECTA STEAM 0.1.0-piloto.7
 
-Publicada el 15 de octubre de 2026 como versión piloto para Windows x64. El docente confirma la compilación y el funcionamiento del paquete.
+Paquete Windows x64 publicado y comprobado por el docente. Publicación visible y marcada como versión preliminar, verificada el 3 de noviembre de 2026.
 
-[Descargar ZIP](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases/download/v0.1.0-piloto.6/LECTA-STEAM-0.1.0-piloto.6-win-x64-20261015-121949-cf45a464.zip) · [Ver publicación](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases/tag/v0.1.0-piloto.6).
+[Ver publicación y descargar](https://github.com/jesuspvsc-netizen/LECTA-STEAM/releases/tag/v0.1.0-piloto.7).
 
 ## Novedades
 
-- Exportación de fichas digitales HTML que funcionan sin conexión y sin instalar LECTA STEAM en el equipo del alumno.
-- Respuesta breve, respuesta abierta y elección múltiple.
-- Descarga de una copia con respuestas y recuperación al volver a abrirla.
-- Importación de entregas en la actividad de origen, con validación del contenido y detección de duplicados.
-- Revisión docente junto al solucionario, observaciones por pregunta, comentario general y estado pendiente/revisada.
-- Persistencia de entregas y revisiones en SQLite, con protección frente a sobrescrituras desde otra ventana.
-- Descarga de la ficha corregida con respuestas y comentarios, imprimible en PDF.
-- Guía del recorrido completo: preparar, responder, entregar, revisar y devolver.
+- Búsqueda, filtros y navegación entre entregas.
+- Avisos más claros al importar fichas de otra actividad o con contenido modificado.
+- Importación de hasta 30 fichas con comprobación previa y resultado por archivo.
+- Las entregas repetidas conservan sus comentarios y revisiones.
+- Descarga conjunta de hasta 30 fichas corregidas en ZIP.
+- Se mantienen las operaciones individuales y la generación asistida sin clave API obligatoria.
 
-## Límites de esta fase
+## Uso
 
-No hay envío automático por correo o Drive, cuentas de alumno, calificación automática ni sincronización entre equipos.
-El alumno debe descargar su copia para conservar las respuestas; no existe guardado automático.
-La importación corresponde a la actividad exacta que generó la ficha. Una copia o variante tiene otra identidad.
-El solucionario se conserva en la revisión tal como estaba al importar, y no se exporta oculto en los HTML del alumno.
-Las observaciones escritas por el docente sí se incluyen íntegramente en la ficha corregida.
+Extrae el ZIP completo y abre Iniciar-LECTA-STEAM.cmd. El paquete incluye .NET. Guarda y cierra la versión anterior antes de abrir esta.
 
-## Compatibilidad y actualización
+La importación múltiple admite 2 MB por archivo y 20 MB por selección. La devolución conjunta admite 20 MB de HTML sin comprimir y solo revisiones terminadas. Extrae el ZIP de fichas corregidas y entrega a cada alumno únicamente su archivo.
 
-Se mantiene el formato .lecta 4 y la importación de formatos 1 a 4.
-Las entregas y anotaciones no se exportan en .lecta, no se duplican con las actividades y no forman parte del ZIP del programa.
-La migración añade la tabla Entregas. El arranque guarda una copia antes de aplicar cambios pendientes en la base de datos.
-Con la aplicación cerrada, conserva además una copia de toda la carpeta de datos antes de actualizar.
+No cambia el esquema de datos respecto a piloto.6. Haz una copia de seguridad de los datos con la aplicación cerrada antes de actualizar.
 
-La versión portable guarda en `%LOCALAPPDATA%\LectaSteam\Data`. Visual Studio utiliza `LectaSteam.Web/Data`.
-Extrae el ZIP en otra carpeta y abre `Iniciar-LECTA-STEAM.cmd`. No ejecutes dos versiones locales a la vez.
+La adaptación a Linux y la entrega directa por la red del centro siguen pendientes.
 
-## Validación comunicada
+## Archivo
 
-El docente confirma el funcionamiento de las fichas digitales, la importación, la conservación de comentarios al cerrar y reabrir,
-la devolución corregida y todas las pruebas. No se ha ejecutado .NET en el entorno remoto.
+`LECTA-STEAM-0.1.0-piloto.7-win-x64-20261101-205139-3e08b789.zip`
 
-## Comprobación del ZIP antes de publicar
-
-1. Generar el paquete con Crear-Portable.cmd.
-2. Extraerlo en una carpeta nueva y abrir Iniciar-LECTA-STEAM.cmd.
-3. Abrir una actividad y descargar una ficha digital. Rellenarla y descargar la copia con respuestas.
-4. Importar esa copia en la misma actividad, añadir comentarios y guardar.
-5. Cerrar y reabrir el programa; comprobar que la revisión se conserva.
-6. Descargar la ficha corregida y comprobar su impresión en PDF.
-7. Comunicar el nombre del ZIP y el SHA-256 generado.
-
-## Paquete comprobado por el docente
-
-Archivo:
-`LECTA-STEAM-0.1.0-piloto.6-win-x64-20261015-121949-cf45a464.zip`
-
-SHA-256 del empaquetado, coincidente con el digest del ZIP publicado por GitHub:
-
+SHA-256 del ZIP, verificado frente al digest publicado por GitHub:
 ```text
-9F5EACB1577F657F7DAC456263356BC96F1342039F60DCACC04C818E46579F10
+B4F0CFB18B2543B047B78C9EE234F704C1538DE7B1A8476B6462554898E28A0C
 ```
 
-Este valor corresponde a este ZIP concreto. La publicación es visible y está marcada como versión preliminar.
+Pruebas automáticas confirmadas por el docente y comprobación del paquete portable completada.

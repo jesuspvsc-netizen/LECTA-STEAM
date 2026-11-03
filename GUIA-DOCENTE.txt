@@ -1,4 +1,4 @@
-LECTA STEAM — 0.1.0-piloto.6
+LECTA STEAM — 0.1.0-piloto.7
 Prueba local para docentes · Windows x64
 
 ABRIR
@@ -125,6 +125,24 @@ importar fichas anteriores. Crea una variante antes de modificar un material
 ya distribuido y conserva la actividad original para recibir sus entregas.
 La ficha corregida es un documento de devolución, no una nueva entrega para importar.
 
+TRABAJAR CON VARIAS ENTREGAS
+En Entregas y revisión puedes buscar por alumno o código, filtrar pendientes o
+revisadas y ordenar por fecha o nombre. Anterior y Siguiente recorren ese listado.
+
+Importar varias entregas permite seleccionar hasta 30 HTML de la actividad:
+máximo 2 MB por archivo y 20 MB en total. Revisa la tabla y pulsa Importar válidas.
+Cada archivo muestra su resultado: Importada, Repetida o Error. Un error no
+impide guardar los demás. Las repetidas no sobrescriben comentarios ni revisiones.
+
+Para devolver varias fichas, guarda cada revisión con Revisión terminada marcada.
+En Entregas recibidas abre Descargar varias fichas corregidas, marca Incluir en ZIP
+o usa Marcar revisadas del listado y pulsa Descargar ZIP. Admite hasta 30 fichas y
+20 MB sin comprimir. Cambiar filtros u ordenación limpia la selección.
+Extrae el ZIP y entrega a cada alumno solo su HTML; el ZIP completo es para el
+docente y contiene datos de varias personas. Cada HTML permite imprimir en PDF.
+Si hay cambios sin guardar, guárdalos primero. La devolución individual sigue
+disponible, también para revisiones en curso.
+
 COMPARTIR ACTIVIDADES
 En Mis actividades abre por el título o pulsa ⋮ para Duplicar, Exportar .lecta
  o Crear variante. Importación y filtros tienen apartados plegables. Otro docente
@@ -146,7 +164,8 @@ la carpeta del programa a otro equipo, tus actividades no viajan con ella.
 COPIA DE SEGURIDAD
 Cierra LECTA STEAM con Ctrl+C y copia la carpeta Data completa a una ubicación segura.
 Los archivos .lecta permiten además conservar o trasladar actividades individuales.
-La actualización añade la tabla Entregas y conserva el material existente.
+Piloto.7 no añade cambios al esquema de datos de piloto.6.
+Si vienes de una versión anterior, se aplicarán las migraciones pendientes.
 Las entregas y observaciones no se incluyen al exportar .lecta: respalda Data
 para conservarlas. Antes de aplicar migraciones pendientes se guarda una copia en
 Data\CopiasAntesDeActualizar. Esa copia no sustituye tus copias habituales.
